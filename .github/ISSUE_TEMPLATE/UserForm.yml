@@ -5,7 +5,6 @@ labels: ["Details", "User Info"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
-type: User
 body:
   - type: markdown
     attributes:
@@ -23,8 +22,8 @@ body:
     id: mobile
     attributes:
       label: Mobile
-      description: Enter your mobile number
-      placeholder: +12344556567
+      description: "Enter your mobile number"
+      placeholder: "+12344556567"
       
     validations:
       required: true 
