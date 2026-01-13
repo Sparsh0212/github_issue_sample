@@ -1,5 +1,5 @@
-name: Sample form 2
-description: User Form to collect basic info
+name: "Sample form 2"
+description: "User Form to collect basic info"
 title: "[User Data]: "
 labels: ["Details", "User Info"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -15,8 +15,8 @@ body:
     id: name
     attributes:
       label: Name
-      description: Enter your Full Name
-      placeholder: ex. John Snow
+      description: "Enter your Full Name"
+      placeholder: "ex. John Snow"
     validations:
       required: true
   - type: input
@@ -27,11 +27,10 @@ body:
       placeholder: +12344556567
       
     validations:
-      required: true
- 
+      required: true 
   - type: textarea
     id: query
     attributes:
       label: Query
-      description: Enter your query here.
+      description: "Enter your query here."
      
