@@ -5,10 +5,7 @@ on:
 jobs:
   handle-new-issue:
     runs-on: ubuntu-latest
-
     steps:
       - name: Print issue details
         run: |
           echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
-          echo "Issue author: ${{ github.event.issue.user.name }}"
